@@ -62,3 +62,7 @@ Upon filling the relevant details and clicking the submit button, again the cont
 Inside that it shows "Booking details", followed by the booking details,
 seat numbers, email and phone number.
 
+
+Terminal :
+
+git clone <REPO_NAME>
