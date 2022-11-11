@@ -46,8 +46,44 @@ nav ul {
     visibility: hidden;
 }
 
-.grid-element {
+.booking-grid {
     display: grid;
-    grid-template-rows: repeat(4, 70px);
-    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: repeat(3, 70px);
+    grid-template-columns: repeat(4, 70px);
+    gap: 1rem;
+}
+
+#booker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+#booker-grid-holder {
+    margin: 2rem;
+    display: flex;
+    gap: 6rem;
+}
+
+.grid-cell {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unavailable-seat {
+    background-color: red;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.available-seat {
+    background-color: green;
+    cursor: pointer;
+}
+
+.selected-seat {
+    border: 4px outset rgb(0, 0, 0)
 }
